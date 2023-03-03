@@ -1,0 +1,22 @@
+{
+  "name": "week-11-jquery_and_ajax",
+  "version": "1.0.0",
+  "description": "# Description - build tic tac toe game - use js for game logic - update DOM on each turn to reflect changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiller3033/promineo-tech-week-11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiller3033/promineo-tech-week-11/issues"
+  },
+  "homepage": "https://github.com/smiller3033/promineo-tech-week-11#readme",
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

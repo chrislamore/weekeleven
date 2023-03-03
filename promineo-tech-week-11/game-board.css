@@ -1,0 +1,48 @@
+.game-board {
+  height: 75vh;
+
+  display: grid;
+  gap: 1rem;
+
+  /* Explicit grid */
+  grid-template-areas:
+    'a b c'
+    'd e f'
+    'g h i';
+
+  grid-template-rows: repeat(3, 32%);
+  grid-template-columns: auto auto auto;
+
+}
+
+.card {
+  background-color: rgb(80, 73, 147);
+}
+
+.card:nth-child(1) {
+  grid-area: a;
+}
+.card:nth-child(2) {
+  grid-area: b;
+}
+.card:nth-child(3) {
+  grid-area: c;
+}
+.card:nth-child(4) {
+  grid-area: d;
+}
+.card:nth-child(5) {
+  grid-area: e;
+}
+.card:nth-child(6) {
+  grid-area: f;
+}
+.card:nth-child(7) {
+  grid-area: g;
+}
+.card:nth-child(8) {
+  grid-area: h;
+}
+.card:nth-child(9) {
+  grid-area: i;
+}
